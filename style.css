@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Public+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Oswald:wght@300&family=Public+Sans:wght@300&display=swap');
+:root{
+    font-size: 62.5%;
+    --backgroud-color: hsl(216, 35%, 15%);
+    --text-color: hsl(0, 0%, 100%);
+    --text-box-color: hsl(216, 36%, 34%);
+    --button-color: hsl(216, 38%, 51%);
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+
+}
+/*---------------------GERAL--------------*/
+body{
+    width: 100vw;
+    margin-inline: auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: var(--text-color);
+    background-color: var(--backgroud-color);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-family: 'Oswald', sans-serif;
+    padding: 1.5rem 6.3rem;
+    display: flex;
+    align-items: center;
+}
+#button{    
+    display: flex;
+    justify-content: center;
+    width: 13.9rem;
+    height: 4.2rem;
+    margin-inline: auto;
+    border-radius: 5rem;
+    background-color: var(--text-box-color);
+    cursor: pointer;
+}
+#button:hover{
+    background-color: var(--button-color);
+}
+
+/*---------------------HEADER--------------*/
+.home{
+    background-color: var(--text-box-color);
+    padding: 1.9rem;
+    width: 100%;
+    height: 11.5rem;
+    margin-bottom: 6rem;
+}
+div #nav svg{
+    margin-right: 1rem;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*---------------------MAIN--------------*/
+h2{
+    margin-inline: auto;
+    margin-top: 5.1rem;
+    margin-bottom: 5.6rem;
+}
+h3{
+    font-size: 2rem;
+    margin-inline: auto;
+    margin-block: 2.5rem;
+
+}
+#box-text{
+    border-radius: 2.3rem;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    color: var(--text-color);
+    width: 31rem;
+    height: 26.7rem;
+    background-color: var(--text-box-color);
+}
+#button{
+    margin-top: 3rem;
+    margin-bottom: 9.2rem;
+
+}
+/*---------------------FOOTER--------------*/
+
+footer{
+    display: block;
+    align-items: center;
+    background-color: var(--text-box-color);
+    padding: 1.9rem;
+    width: 100%;
+    height: 11.5rem;
+}
+#rodape{
+    display: flex;
+    margin-top: -2rem;
+}
+#social{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 3rem;
+}
+/*---------------------DESKTOP  --------------*/
